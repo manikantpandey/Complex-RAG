@@ -1,0 +1,32 @@
+# FastAPI + Web Server
+fastapi
+uvicorn[standard]
+
+# Core RAG Components
+langchain
+openai
+faiss-cpu
+tiktoken
+
+# PDF and Document Parsing
+PyMuPDF  # used in the notebook for PDF parsing
+
+# Vector Store Persistence
+pickle-mixin  # optional if you're serializing FAISS
+
+# Environment & Config
+python-dotenv
+pydantic
+
+# Background Tasks, Logging, Utilities
+httpx
+loguru
+
+# Optional: Evaluation Tools
+ragas
+datasets
+evaluate
+
+# Development & Testing
+pytest
+pytest-asyncio
